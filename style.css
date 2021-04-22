@@ -1,0 +1,77 @@
+p {
+  color: #e9e9e9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul, ol {
+  color: #e9e9e9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+  /* Profile picture adjustments */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border: 5px;
+  box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+}
+
+a:link    { color: white;  }
+a:visited { color: white;   }
+a:hover   { color: blue; }
+a:active  { color: rgb(76, 76, 121);  }
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #e9e9e9;
+  font-size: 50px;
+}
+
+h2, h3, h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+body {
+  /* Include and apply volcanic-gravel image */
+  background-image: url(images/volcanic-gravel.jpeg);
+  background-color: gray;
+  background-size: contain;
+  height: auto;
+}
+
+header {
+  color: #e9e9e9;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+main {
+  width: 604.8px;
+  margin: auto;
+}
+
+footer {
+  color: #e9e9e9;
+  margin: auto;
+}
+
+article {
+  width: 604.8px;
+  margin: auto;
+}
+
+hr {
+  width: 604.8px;
+  margin: auto;
+  padding: 1px;
+  background-color: #e9e9e9;
+}
+
+/* Must include (background, color, font-family, font-size,
+ height, margin, padding, and text-align) elements. */
